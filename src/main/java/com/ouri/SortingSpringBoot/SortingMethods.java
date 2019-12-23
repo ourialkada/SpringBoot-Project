@@ -1,5 +1,9 @@
 package com.ouri.SortingSpringBoot;
+import com.google.auth.oauth2.GoogleCredentials;
+import com.google.cloud.firestore.Firestore;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
 public class SortingMethods {
 
 	// Bubble sort is when you take adjacent elements, compare and switch them
@@ -200,4 +204,9 @@ public class SortingMethods {
 	    }
 	}
 
+	static void addAllToDB()
+	{
+		
+	}
+	
 }
